@@ -330,7 +330,7 @@ export default function Home() {
         </Popover.Panel>
         </Transition>
     </Popover>
-    <div class="flex flex-row flex-wrap mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center justify-center lg:pt-32">
+    <div class="flex flex-col mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center items-center justify-center lg:pt-32">
       <div>
         <h1 class="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
           Welcome to the 
@@ -341,12 +341,54 @@ export default function Home() {
           The AMCP Health Helper website was established in 2020 by the Research and Education Committee of the WesternU AMCP Student Chapter. Our goal is to empower patients to take control of their health by providing patients resources ranging from flyers about common diseases to links to useful healthcare websites.
         </p>
       </div>
-      <div class="my-10"> 
-        <ReactPlayer url='https://www.youtube.com/watch?v=SleKuPjxZjE' />
+      <div class="w-[90%] sm:w-[50%] my-10"> 
+        <ReactPlayer url='https://www.youtube.com/watch?v=SleKuPjxZjE' width="auto" />
       </div>
       
     </div>
-    <div class="py-20 bg-gradient-to-r from-emerald-300 to-cyan-500">
+    <div class="flex flex-col md:flex-row justify-evenly py-20 bg-gradient-to-r from-emerald-300 to-cyan-500">
+        <div class="max-w-[50%] text-white">
+            <h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl">
+            WesternU AMCP Student Chapter 
+            </h2>
+            <p class="mt-4 text-lg tracking-tight text-white">
+            Make sure to visit <a target="_blank" href="http://www.amcpwesternu.weebly.com">amcpwesternu.weebly.com</a> for more information about what our chapter is about. 
+            </p>
+            <a class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10" href="http://www.amcpwesternu.weebly.com">
+                Visit our website
+            </a>
+        </div>
+        <div class="max-w-[45%]">
+            <img src="/amcp_website.png" />
+        </div>
+    </div>
+    <section id="get-started-today" class="relative overflow-hidden bg-white py-32">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
+            <div class="mx-auto max-w-lg text-center">
+                <h2 class="font-display text-3xl tracking-tight text-black sm:text-4xl">
+                    Get started today
+                </h2>
+                <p class="mt-4 text-lg tracking-tight text-black">
+                    It’s time to take control of your health. You can contact us with any inquiries or to schedule a vaccine.
+                </p>
+                <a class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-emerald-300 text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10" href="/register">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="flex flex-col items-center border-t border-slate-400/10 sm:justify-between mb-12">
+        <div class="flex flex-row my-12 gap-x-6">
+            <a target="_blank" class="group" aria-label="WesternU on Facebook" href="https://www.facebook.com/SYFWesternU">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"><path d="M12 3c-2.444 0-2.75.01-3.71.054-.959.044-1.613.196-2.185.418A4.412 4.412 0 0 0 4.51 4.511c-.5.5-.809 1.002-1.039 1.594-.222.572-.374 1.226-.418 2.184C3.01 9.25 3 9.556 3 12s.01 2.75.054 3.71c.044.959.196 1.613.418 2.185.23.592.538 1.094 1.039 1.595.5.5 1.002.808 1.594 1.038.572.222 1.226.374 2.184.418C9.25 20.99 9.556 21 12 21s2.75-.01 3.71-.054c.959-.044 1.613-.196 2.185-.419a4.412 4.412 0 0 0 1.595-1.038c.5-.5.808-1.002 1.038-1.594.222-.572.374-1.226.418-2.184.044-.96.054-1.267.054-3.711s-.01-2.75-.054-3.71c-.044-.959-.196-1.613-.419-2.185A4.412 4.412 0 0 0 19.49 4.51c-.5-.5-1.002-.809-1.594-1.039-.572-.222-1.226-.374-2.184-.418C14.75 3.01 14.444 3 12 3Zm0 1.622c2.403 0 2.688.009 3.637.052.877.04 1.354.187 1.67.31.421.163.72.358 1.036.673.315.315.51.615.673 1.035.123.317.27.794.31 1.671.043.95.052 1.234.052 3.637s-.009 2.688-.052 3.637c-.04.877-.187 1.354-.31 1.67-.163.421-.358.72-.673 1.036a2.79 2.79 0 0 1-1.035.673c-.317.123-.794.27-1.671.31-.95.043-1.234.052-3.637.052s-2.688-.009-3.637-.052c-.877-.04-1.354-.187-1.67-.31a2.789 2.789 0 0 1-1.036-.673 2.79 2.79 0 0 1-.673-1.035c-.123-.317-.27-.794-.31-1.671-.043-.95-.052-1.234-.052-3.637s.009-2.688.052-3.637c.04-.877.187-1.354.31-1.67.163-.421.358-.72.673-1.036.315-.315.615-.51 1.035-.673.317-.123.794-.27 1.671-.31.95-.043 1.234-.052 3.637-.052Z"></path><path d="M12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-7.622a4.622 4.622 0 1 0 0 9.244 4.622 4.622 0 0 0 0-9.244Zm5.884-.182a1.08 1.08 0 1 1-2.16 0 1.08 1.08 0 0 1 2.16 0Z"></path></svg>
+            </a>
+            <a target="_blank" class="group" aria-label="WesternU on Instagram" href="https://www.instagram.com/syfwesternu/">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"><path d="M12 3c-2.444 0-2.75.01-3.71.054-.959.044-1.613.196-2.185.418A4.412 4.412 0 0 0 4.51 4.511c-.5.5-.809 1.002-1.039 1.594-.222.572-.374 1.226-.418 2.184C3.01 9.25 3 9.556 3 12s.01 2.75.054 3.71c.044.959.196 1.613.418 2.185.23.592.538 1.094 1.039 1.595.5.5 1.002.808 1.594 1.038.572.222 1.226.374 2.184.418C9.25 20.99 9.556 21 12 21s2.75-.01 3.71-.054c.959-.044 1.613-.196 2.185-.419a4.412 4.412 0 0 0 1.595-1.038c.5-.5.808-1.002 1.038-1.594.222-.572.374-1.226.418-2.184.044-.96.054-1.267.054-3.711s-.01-2.75-.054-3.71c-.044-.959-.196-1.613-.419-2.185A4.412 4.412 0 0 0 19.49 4.51c-.5-.5-1.002-.809-1.594-1.039-.572-.222-1.226-.374-2.184-.418C14.75 3.01 14.444 3 12 3Zm0 1.622c2.403 0 2.688.009 3.637.052.877.04 1.354.187 1.67.31.421.163.72.358 1.036.673.315.315.51.615.673 1.035.123.317.27.794.31 1.671.043.95.052 1.234.052 3.637s-.009 2.688-.052 3.637c-.04.877-.187 1.354-.31 1.67-.163.421-.358.72-.673 1.036a2.79 2.79 0 0 1-1.035.673c-.317.123-.794.27-1.671.31-.95.043-1.234.052-3.637.052s-2.688-.009-3.637-.052c-.877-.04-1.354-.187-1.67-.31a2.789 2.789 0 0 1-1.036-.673 2.79 2.79 0 0 1-.673-1.035c-.123-.317-.27-.794-.31-1.671-.043-.95-.052-1.234-.052-3.637s.009-2.688.052-3.637c.04-.877.187-1.354.31-1.67.163-.421.358-.72.673-1.036.315-.315.615-.51 1.035-.673.317-.123.794-.27 1.671-.31.95-.043 1.234-.052 3.637-.052Z"></path><path d="M12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-7.622a4.622 4.622 0 1 0 0 9.244 4.622 4.622 0 0 0 0-9.244Zm5.884-.182a1.08 1.08 0 1 1-2.16 0 1.08 1.08 0 0 1 2.16 0Z"></path></svg>
+            </a>
+        </div>
+        <div>
+            <p class="text-sm text-slate-500 sm:mt-0">© 2023 by Westernu AMCP 2020 Last updated February 2021.</p>
+        </div>
     </div>
     </>
   )
