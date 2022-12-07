@@ -61,22 +61,27 @@ export default function Home() {
             </a>
           </div>
           <div class="lg:max-w-[45%]">
-            <Image
-              src="/amcp_website.png"
-              alt="AMCP Website"
-              width="765"
-              height="345"
-            />
+            <a
+            href="http://www.amcpwesternu.weebly.com"
+            target="_blank"
+                rel="noreferrer">
+              <Image
+                src="/amcp_website.png"
+                alt="AMCP Website"
+                width="765"
+                height="345"
+              />
+            </a>
           </div>
         </div>
       </section>
+      <section id="research committee" class="flex flex-col py-40 px-[10%]">
+        <div class=""></div>
+      </section>
       <section
-        id="research committee"
-        class="flex flex-col py-40 px-[10%]">
-          <div class="">
-          </div>
-     </section>
-      <section id="contact-us" class="relative overflow-hidden py-32 bg-gradient-to-r from-green-500 via-green-300 to-teal-400">
+        id="contact-us"
+        class="relative overflow-hidden py-32 bg-gradient-to-r from-green-500 via-green-300 to-teal-400"
+      >
         <div class="py-30mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div class="mx-auto max-w-lg text-center">
             <h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl">
