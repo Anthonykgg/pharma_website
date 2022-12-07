@@ -35,7 +35,7 @@ export default function Home() {
       </section>
       <section
         id="student_chapter"
-        class="py-40 px-[10%] bg-gradient-to-r from-green-500 via-green-300 to-teal-400"
+        class="py-32 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400"
       >
         <div class="flex flex-col lg:flex-row justify-evenly mx-auto max-w-7xl">
           <div class="lg:max-w-[50%] text-white">
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
       <section
         id="contact-us"
-        class="relative overflow-hidden py-32 bg-gradient-to-r from-green-500 via-green-300 to-teal-400"
+        class="relative overflow-hidden py-32 bg-gradient-to-r from-blue-400 to-emerald-400"
       >
         <div class="py-30 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div class="mx-auto max-w-lg text-center">
