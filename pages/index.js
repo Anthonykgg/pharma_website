@@ -56,6 +56,8 @@ export default function Home() {
             <a
               class="group flex lg:inline-block items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-emerald-300 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10 mb-10 lg:mb-0"
               href="http://www.amcpwesternu.weebly.com"
+              target="_blank"
+              rel="noreferrer"
             >
               Visit our website
             </a>
