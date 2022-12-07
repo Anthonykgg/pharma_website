@@ -37,7 +37,7 @@ export default function Home() {
         id="student_chapter"
         class="py-40 px-[10%] bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400"
       >
-        <div class="flex flex-col lg:flex-row justify-evenly mx-auto max-w-7xl">
+        <div class="flex flex-col lg:flex-row justify-between mx-auto max-w-7xl">
           <div class="lg:max-w-[50%] text-white">
             <h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl">
               WesternU AMCP Student Chapter
@@ -81,39 +81,80 @@ export default function Home() {
       </section>
       <section
         id="research committee"
-        class="py-60 flex grid-cols-1 py-40 px-[10%]">
+        class="py-40 px-[10%]"
+      >
+        <div class="pb-20 mx-auto max-w-7xl">
+            <h2 class="font-display text-3xl tracking-tight text-emerald-300 sm:text-4xl">
+              Research and Education committee members
+            </h2>
+        </div>
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
-          <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-6 sm:grid-cols-2">
-            <div
-              class="-mx-4 flex gap-x-4 gap-y-10 overflow-x-auto pl-4 pb-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8"
-              aria-orientation="vertical">
-              <div class="relative w-3/4 flex-row pr-4 sm:w-auto sm:pr-0">
-                <h3 class="text-2xl font-bold tracking-tight text-blue-900">
-                  2020
-                </h3>
-                <p class="mt-1.5 text-base tracking-tight text-blue-900">
-                  The first day of the conference is focused on dark patterns
-                  for ecommerce.
+          <div class="mx-auto flex flex-col sm:flex-row justify-between">
+            <div class="sm:w-[30%]">
+              <h3 class="text-2xl font-bold tracking-tight text-slate-900">
+                2020
+              </h3>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+                Mallory Lu 
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+                Jeremy Barahona
                 </p>
-              </div>
-              <div class="relative w-3/4 flex-row pr-4 sm:w-auto sm:pr-0 opacity-70">
-                <h3 class="text-2xl font-bold tracking-tight text-blue-900">
-                  2021
-                </h3>
-                <p class="mt-1.5 text-base tracking-tight text-blue-900">
-                  Next we spend the day talking about deceiving people with
-                  technology.
-                </p>
-              </div>
-              <div class="relative w-3/4 flex-row pr-4 sm:w-auto sm:pr-0 opacity-70">
-                <h3 class="text-2xl font-bold tracking-tight text-blue-900">
-                  2022
-                </h3>
-                <p class="mt-1.5 text-base tracking-tight text-blue-900">
-                  We close out the event previewing new techniques that are
-                  still in development.
-                </p>
-              </div>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+                Christine Kim
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Jeremiah Sabocor
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Crystal Lao
+              </p>
+            </div>
+            <div class="sm:w-[30%]">
+              <h3 class="text-2xl font-bold tracking-tight text-slate-900">
+                2021
+              </h3>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Andrew Pham
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Laurin Randle
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Dia Cabrera
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Shaun Castillo
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Phoebe Wu
+              </p>
+            </div>
+            <div class="sm:w-[30%]">
+              <h3 class="text-2xl font-bold tracking-tight text-slate-900">
+                2022
+              </h3>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Annie Lam
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Dia Cabrera
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Leanna Hunt
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Erin Chiang
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Joni Borlongan
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              David Doan
+              </p>
+              <p class="mt-1.5 text-base tracking-tight text-slate-600">
+              Dana Morris
+              </p>
             </div>
           </div>
         </div>
@@ -178,5 +219,6 @@ export default function Home() {
       </section>
       <Footer />
     </div>
+    
   );
 }
