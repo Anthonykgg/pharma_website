@@ -42,7 +42,7 @@ export default function Home() {
             <h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl">
               WesternU AMCP Student Chapter
             </h2>
-            <p class="mt-4 text-lg tracking-tight text-white">
+            <p class="mt-4 text-lg tracking-tight text-white sm:max-w-[80%]">
               Make sure to visit{" "}
               <a
                 target="_blank"
