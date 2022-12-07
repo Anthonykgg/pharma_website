@@ -44,7 +44,7 @@ export default function Home() {
             </h2>
             <p class="mt-4 text-lg tracking-tight text-white sm:max-w-[80%]">
               Make sure to visit{" "}
-              <a
+              <a class="underline"
                 target="_blank"
                 rel="noreferrer"
                 href="http://www.amcpwesternu.weebly.com"
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="research committee" class="flex flex-col py-40 px-[10%]">
+      <section id="research committee" class="py-60 flex flex-col py-40 px-[10%]">
         <div class=""></div>
       </section>
       <section
