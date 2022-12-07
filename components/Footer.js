@@ -40,7 +40,7 @@ export default function Footer() {
       </div>
       <div>
         <p class="text-sm font-small text-slate-500 sm:mt-0">
-          © 2023 by Westernu AMCP 2020 Last updated February 2021.
+          © 2023 by Westernu AMCP 2020 Last updated December 2022.
         </p>
       </div>
     </section>
