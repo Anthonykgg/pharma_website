@@ -35,14 +35,14 @@ export default function Home() {
       </section>
       <section
         id="student_chapter"
-        class="py-20 bg-gradient-to-r from-emerald-300 to-cyan-500"
+        class="py-20 px-[10%] bg-gradient-to-r from-emerald-300 to-cyan-500"
       >
-        <div class="flex flex-col md:flex-row justify-evenly mx-auto max-w-7xl">
-          <div class="max-w-[50%] text-white">
+        <div class="flex flex-col lg:flex-row justify-evenly mx-auto max-w-7xl">
+          <div class="lg:max-w-[50%] text-white">
             <h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl">
               WesternU AMCP Student Chapter
             </h2>
-            <p class="mt-4 text-lg tracking-tight text-white max-w-[60%]">
+            <p class="mt-4 text-lg tracking-tight text-white">
               Make sure to visit{" "}
               <a
                 target="_blank"
@@ -51,16 +51,16 @@ export default function Home() {
               >
                 amcpwesternu.weebly.com
               </a>{" "}
-              for more information about what our chapter is about.
+              for more information about what our chapter entails.
             </p>
             <a
-              class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
+              class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10 mb-10 lg:mb-0"
               href="http://www.amcpwesternu.weebly.com"
             >
               Visit our website
             </a>
           </div>
-          <div class="max-w-[45%]">
+          <div class="lg:max-w-[45%]">
             <Image
               src="/amcp_website.png"
               alt="AMCP Website"
