@@ -9,8 +9,8 @@ module.exports = {
         Inter: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       animation: {
-        'spin-slow': 'spin 3s linear infinite',
-      }
+        "spin-slow": "spin 3s linear infinite",
+      },
     },
   },
   plugins: [],
