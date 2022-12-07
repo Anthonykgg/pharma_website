@@ -84,6 +84,9 @@ export default function Home() {
         id="contact-us"
         class="relative overflow-hidden py-32 bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400"
       >
+        <div class="absolute top-1/2 left-20 -translate-y-1/2 sm:left-1/2 sm:-translate-x-1/2">
+          <svg viewBox="0 0 558 558" width="558" height="558" fill="none" aria-hidden="true" class="animate-spin-slow"><defs><linearGradient id=":R1hm:" x1="79" y1="16" x2="105" y2="237" gradientUnits="userSpaceOnUse"><stop stopColor="#fff"></stop><stop offset="1" stopColor="#fff" stopOpacity="0"></stop></linearGradient></defs><path opacity=".2" d="M1 279C1 125.465 125.465 1 279 1s278 124.465 278 278-124.465 278-278 278S1 432.535 1 279Z" stroke="#fff"></path><path d="M1 279C1 125.465 125.465 1 279 1" stroke="url(#:R1hm:)" strokeLinecap="round"></path></svg>
+        </div>
         <div class="py-30 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div class="mx-auto max-w-lg text-center">
             <h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl">
