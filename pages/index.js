@@ -35,7 +35,7 @@ export default function Home() {
       </section>
       <section
         id="student_chapter"
-        class="py-32 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400"
+        class="py-40 px-[10%] bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400"
       >
         <div class="flex flex-col lg:flex-row justify-evenly mx-auto max-w-7xl">
           <div class="lg:max-w-[50%] text-white">
@@ -54,7 +54,7 @@ export default function Home() {
               for more information about what our chapter entails.
             </p>
             <a
-              class="group flex lg:inline-block items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-emerald-300 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10 mb-10 lg:mb-0"
+              class="group flex md:inline-block items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10 mb-10 lg:mb-0"
               href="http://www.amcpwesternu.weebly.com"
               target="_blank"
               rel="noreferrer"
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
       <section
         id="contact-us"
-        class="relative overflow-hidden py-32 bg-gradient-to-r from-blue-400 to-emerald-400"
+        class="relative overflow-hidden py-32 bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400"
       >
         <div class="py-30 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div class="mx-auto max-w-lg text-center">
@@ -94,7 +94,7 @@ export default function Home() {
               any inquiries or to schedule a vaccine.
             </p>
             <a
-              class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-emerald-300 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
+              class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
               href="/register"
             >
               Contact Us
