@@ -35,7 +35,7 @@ export default function Home() {
       </section>
       <section
         id="student_chapter"
-        class="py-20 px-[10%] bg-gradient-to-r from-emerald-300 to-cyan-500"
+        class="py-40 px-[10%] bg-gradient-to-r from-green-500 via-green-300 to-teal-400"
       >
         <div class="flex flex-col lg:flex-row justify-evenly mx-auto max-w-7xl">
           <div class="lg:max-w-[50%] text-white">
@@ -70,18 +70,24 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="contact-us" class="relative overflow-hidden py-32">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
+      <section
+        id="research committee"
+        class="flex flex-col py-40 px-[10%]">
+          <div class="">
+          </div>
+     </section>
+      <section id="contact-us" class="relative overflow-hidden py-32 bg-gradient-to-r from-green-500 via-green-300 to-teal-400">
+        <div class="py-30mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div class="mx-auto max-w-lg text-center">
-            <h2 class="font-display text-3xl tracking-tight text-black sm:text-4xl">
+            <h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl">
               Get started today
             </h2>
-            <p class="mt-4 text-lg tracking-tight text-black">
+            <p class="mt-4 text-lg tracking-tight text-white">
               It’s time to take control of your health. You can contact us with
               any inquiries or to schedule a vaccine.
             </p>
             <a
-              class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-emerald-300 text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
+              class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-emerald-300 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
               href="/register"
             >
               Contact Us
