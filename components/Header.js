@@ -406,9 +406,11 @@ export default function Header() {
               <div className="flex items-center justify-between">
                 <div>
                   <Image
-                    src="https://tailwindui.com/img/logos/mark.svg?color=emerald&shade=600"
-                    alt="Your Company"
+                    src="/logo_amcp.svg"
+                    alt="Logo AMCP"
                     className="h-8 w-auto"
+                    width="110"
+                    height="40"
                   />
                 </div>
                 <div className="-mr-2">
@@ -468,14 +470,8 @@ export default function Header() {
                   href="#"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-emerald-400 px-4 py-2 text-sm font-small text-white shadow-sm hover:bg-emerald-500"
                 >
-                  Sign up
+                  Contact us
                 </a>
-                <p className="mt-6 text-center text-sm font-small text-gray-500">
-                  Existing customer?{" "}
-                  <a href="#" className="text-emerald-400 hover:text-emerald-300">
-                    Sign in
-                  </a>
-                </p>
               </div>
             </div>
           </div>
