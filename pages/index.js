@@ -37,7 +37,7 @@ export default function Home() {
         id="student_chapter"
         className="py-40 px-[10%] bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400"
       >
-        <div className="flex flex-col lg:flex-row justify-evenly mx-auto max-w-7xl">
+        <div className="flex flex-col lg:flex-row justify-between mx-auto max-w-7xl">
           <div className="lg:max-w-[50%] text-white">
             <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
               WesternU AMCP Student Chapter
@@ -81,9 +81,83 @@ export default function Home() {
       </section>
       <section
         id="research committee"
-        className="py-60 flex flex-col py-40 px-[10%]"
+        className="py-40 px-[10%]"
       >
-        <div className=""></div>
+        <div className="pb-20 mx-auto max-w-7xl">
+            <h2 className="font-display text-3xl tracking-tight text-emerald-300 sm:text-4xl">
+              Research and Education committee members
+            </h2>
+        </div>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
+          <div className="mx-auto flex flex-col sm:flex-row justify-between">
+            <div className="sm:w-[30%]">
+              <h3 className="text-2xl font-bold tracking-tight text-slate-900">
+                2020
+              </h3>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                Mallory Lu 
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                Jeremy Barahona
+                </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                Christine Kim
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Jeremiah Sabocor
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Crystal Lao
+              </p>
+            </div>
+            <div className="sm:w-[30%]">
+              <h3 className="text-2xl font-bold tracking-tight text-slate-900">
+                2021
+              </h3>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Andrew Pham
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Laurin Randle
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Dia Cabrera
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Shaun Castillo
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Phoebe Wu
+              </p>
+            </div>
+            <div className="sm:w-[30%]">
+              <h3 className="text-2xl font-bold tracking-tight text-slate-900">
+                2022
+              </h3>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Annie Lam
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Dia Cabrera
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Leanna Hunt
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Erin Chiang
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Joni Borlongan
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              David Doan
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Dana Morris
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
       <section
         id="contact-us"
@@ -135,6 +209,8 @@ export default function Home() {
             <a
               className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
               href="/register"
+              target="_blank"
+              rel="noreferrer"
             >
               Contact Us
             </a>
