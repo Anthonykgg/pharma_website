@@ -89,7 +89,7 @@ export default function Home() {
             </h2>
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
-          <div className="mx-auto flex flex-col sm:flex-row justify-between">
+          <div className="mx-auto ml-28 flex flex-col sm:flex-row justify-between">
             <div className="sm:w-[30%]">
               <h3 className="text-2xl font-bold tracking-tight text-slate-900">
                 2020
