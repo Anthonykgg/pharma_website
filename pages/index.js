@@ -52,7 +52,7 @@ export default function Home() {
               >
                 amcpwesternu.weebly.com
               </a>{" "}
-              for more information about what our chapter entails.
+              for more information about what our chapter entails. Be in the loop for all the upcoming managed care topics and current pharmacy related events!
             </p>
             <a
               className="group flex md:inline-block items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10 mb-10 lg:mb-0"
