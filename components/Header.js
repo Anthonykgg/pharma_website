@@ -3,26 +3,32 @@ import Image from "next/image";
 
 import { Popover, Transition } from "@headlessui/react";
 import {
+  AcademicCapIcon,
   ArrowPathIcon,
   Bars3Icon,
   BookmarkSquareIcon,
+  BookOpenIcon,
   CalendarIcon,
   ChartBarIcon,
+  ChatBubbleOvalLeftIcon,
   CursorArrowRaysIcon,
+  FlagIcon,
+  HeartIcon,
   LifebuoyIcon,
   PhoneIcon,
   PlayIcon,
   ShieldCheckIcon,
   Squares2X2Icon,
+  WalletIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 const solutions = [
   {
-    name: "Analytics",
+    name: "Kenolytics",
     description:
-      "Get a better understanding of where your traffic is coming from.",
+      "Get a better understanding of where your Keno is coming from.",
     href: "#",
     icon: ChartBarIcon,
   },
@@ -58,31 +64,40 @@ const callsToAction = [
 ];
 const resources = [
   {
-    name: "Help Center",
+    name: "Get Coupon",
     description:
-      "Get all of your questions answered in our forums or contact support.",
-    href: "#",
-    icon: LifebuoyIcon,
+      "Save money on your prescriptions.",
+    href: "https://www.goodrx.com/",
+    target: "_blank",
+    icon: WalletIcon,
   },
   {
-    name: "Guides",
+    name: "Get your Health Plan",
     description:
-      "Learn how to maximize our platform to get the most out of it.",
+      "Find the best health plan for you and your family.",
+    href: "https://finder.healthcare.gov/",
+    target: "_blank",
+    icon: HeartIcon,
+  },
+  {
+    name: "Interprofessional Education",
+    description: "Find out how medications are closely tied to other healthcare professionals.",
+    href: "#",
+    icon: AcademicCapIcon,
+  },
+  {
+    name: "References",
+    description:
+      "Source citations.",
     href: "#",
     icon: BookmarkSquareIcon,
   },
   {
-    name: "Events",
+    name: "Contact ",
     description:
-      "See what meet-ups and other events we might be planning near you.",
+      "Contact us with any inquiries.",
     href: "#",
-    icon: CalendarIcon,
-  },
-  {
-    name: "Security",
-    description: "Understand how we take your privacy seriously.",
-    href: "#",
-    icon: ShieldCheckIcon,
+    icon: ChatBubbleOvalLeftIcon,
   },
 ];
 const recentPosts = [
@@ -128,12 +143,6 @@ export default function Header() {
               className="text-sm font-small text-slate-700 hover:text-slate-900"
             >
               Home
-            </a>
-            <a
-              href="#"
-              className="text-sm font-small text-slate-700 hover:text-slate-900"
-            >
-              Podcast
             </a>
             <Popover className="relative">
               {({ open }) => (
@@ -287,13 +296,7 @@ export default function Header() {
               href="#"
               className="text-sm font-small text-slate-700 hover:text-slate-900"
             >
-              Safe Drug Storage/Disposal
-            </a>
-            <a
-              href="#"
-              className="text-sm font-small text-slate-700 hover:text-slate-900"
-            >
-              Antimicrobial Resistance
+              Medication
             </a>
             <Popover className="relative">
               {({ open }) => (
@@ -330,6 +333,7 @@ export default function Header() {
                             <a
                               key={item.name}
                               href={item.href}
+                              target={item.target}
                               className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                             >
                               <item.icon
