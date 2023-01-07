@@ -15,6 +15,7 @@ import {
   CalendarIcon,
   ChartBarIcon,
   ChatBubbleOvalLeftIcon,
+  ChevronRightIcon,
   ClipboardDocumentIcon,
   CursorArrowRaysIcon,
   FlagIcon,
@@ -64,33 +65,53 @@ const covidVaccinesEntries = [
 ];
 const diseaseStatesEntries = [
   {
-    name: "disease",
-    href: "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html",
-    target: "_blank",
-    icon: InformationCircleIcon,
-  },
-  {
-    name: "When can I get the vaccine?",
-    href: "https://myturn.ca.gov/",
-    target: "_blank",
-    icon: BeakerIcon,
-  },
-  {
-    name: "Updates on Covid-19",
-    href: "https://www.fda.gov/emergency-preparedness-and-response/counterterrorism-and-emerging-threats/coronavirus-disease-2019-covid-19",
-    target: "_blank",
-    icon: ArrowPathIcon,
-  },
-  {
-    name: "Where to test for Covid-19",
-    href: "https://www.hhs.gov/coronavirus/community-based-testing-sites/index.html#ca",
-    target: "_blank",
-    icon: BuildingOffice2Icon,
-  },
-  {
-    name: "Infographics for Pharmacies",
+    name: "Common cold vs Flu vs Covid-19",
     href: "#",
-    icon: ClipboardDocumentIcon,
+    target: "_blank",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "High Blood Pressure",
+    href: "#",
+    target: "_blank",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Diabetes",
+    href: "#",
+    target: "_blank",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "High Cholesterol",
+    href: "#",
+    target: "_blank",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Asthma",
+    href: "#",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "COPD",
+    href: "#",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Pneumonia",
+    href: "#",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Heart Failure",
+    href: "#",
+    icon: ChevronRightIcon,
+  },
+  {
+    name: "Osteoporosis",
+    href: "#",
+    icon: ChevronRightIcon,
   },
 ];
 const medicationEntries = [
@@ -498,7 +519,7 @@ export default function Header() {
                       >
                         <div class="accordion-body py-4 px-5 text-slate-900">
                           <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                            {medicationEntries.map((item) => (
+                            {covidVaccinesEntries.map((item) => (
                               <a
                                 key={item.name}
                                 href={item.href}
@@ -560,6 +581,56 @@ export default function Header() {
                         <div class="accordion-body py-4 px-5">
                           <strong>
                             This is the second item's accordion body.
+                          </strong>{" "}
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the{" "}
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-white border border-gray-200">
+                      <h2 class="accordion-header mb-0" id="headingThree">
+                        <button
+                          class="
+        accordion-button
+        collapsed
+        relative
+        flex
+        items-center
+        w-full
+        py-4
+        px-5
+        text-base text-gray-800 text-left
+        bg-white
+        border-0
+        rounded-none
+        transition
+        focus:outline-none
+      "
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body py-4 px-5">
+                          <strong>
+                            This is the third item's accordion body.
                           </strong>{" "}
                           It is hidden by default, until the collapse plugin
                           adds the appropriate classes that we use to style each
