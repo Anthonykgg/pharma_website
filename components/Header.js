@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import "tw-elements";
 import Image from "next/image";
 
 import { Popover, Transition } from "@headlessui/react";
@@ -126,37 +127,34 @@ const medicationEntries = [
 const resourcesEntries = [
   {
     name: "Get Coupon",
-    description:
-      "Save money on your prescriptions.",
+    description: "Save money on your prescriptions.",
     href: "https://www.goodrx.com/",
     target: "_blank",
     icon: TicketIcon,
   },
   {
     name: "Get your Health Plan",
-    description:
-      "Find the best health plan for you and your family.",
+    description: "Find the best health plan for you and your family.",
     href: "https://finder.healthcare.gov/",
     target: "_blank",
     icon: HeartIcon,
   },
   {
     name: "Interprofessional Education",
-    description: "Find out how medications are closely tied to other healthcare professionals.",
+    description:
+      "Find out how medications are closely tied to other healthcare professionals.",
     href: "#",
     icon: AcademicCapIcon,
   },
   {
     name: "References",
-    description:
-      "Source citations.",
+    description: "Source citations.",
     href: "#",
     icon: BookmarkSquareIcon,
   },
   {
     name: "Contact ",
-    description:
-      "Contact us with any inquiries.",
+    description: "Contact us with any inquiries.",
     href: "#",
     icon: ChatBubbleOvalLeftIcon,
   },
@@ -419,7 +417,7 @@ export default function Header() {
                               </div>
                             </a>
                           ))}
-                        </div>                      
+                        </div>
                       </div>
                     </Popover.Panel>
                   </Transition>
@@ -464,56 +462,169 @@ export default function Header() {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  {covidVaccinesEntries.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50"
-                    >
-                      <item.icon
-                        className="h-6 w-6 flex-shrink-0 text-emerald-400"
-                        aria-hidden="true"
-                      />
-                      <span className="ml-3 text-sm font-small text-gray-900">
-                        {item.name}
-                      </span>
-                    </a>
-                  ))}
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item bg-white border border-gray-200">
+                      <h2 class="accordion-header mb-0" id="headingOne">
+                        <button
+                          class="
+                            accordion-button
+                            relative
+                            flex
+                            items-center
+                            w-full
+                            py-4
+                            px-5
+                            text-base text-gray-800 text-left
+                            bg-white
+                            border-0
+                            rounded-none
+                            transition
+                            focus:outline-none
+                          "
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body py-4 px-5 text-slate-900">
+                          <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                            {medicationEntries.map((item) => (
+                              <a
+                                key={item.name}
+                                href={item.href}
+                                target={item.target}
+                                className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
+                              >
+                                <item.icon
+                                  className="h-6 w-6 flex-shrink-0 text-emerald-400"
+                                  aria-hidden="true"
+                                />
+                                <div className="ml-4">
+                                  <p className="text-sm font-small text-gray-900">
+                                    {item.name}
+                                  </p>
+                                  <p className="mt-1 text-sm font-small text-gray-500">
+                                    {item.description}
+                                  </p>
+                                </div>
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-white border border-gray-200">
+                      <h2 class="accordion-header mb-0" id="headingTwo">
+                        <button
+                          class="
+        accordion-button
+        collapsed
+        relative
+        flex
+        items-center
+        w-full
+        py-4
+        px-5
+        text-base text-gray-800 text-left
+        bg-white
+        border-0
+        rounded-none
+        transition
+        focus:outline-none
+      "
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body py-4 px-5">
+                          <strong>
+                            This is the second item's accordion body.
+                          </strong>{" "}
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the{" "}
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-white border border-gray-200">
+                      <h2 class="accordion-header mb-0" id="headingThree">
+                        <button
+                          class="
+        accordion-button
+        collapsed
+        relative
+        flex
+        items-center
+        w-full
+        py-4
+        px-5
+        text-base text-gray-800 text-left
+        bg-white
+        border-0
+        rounded-none
+        transition
+        focus:outline-none
+      "
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body py-4 px-5">
+                          <strong>
+                            This is the third item's accordion body.
+                          </strong>{" "}
+                          It is hidden by default, until the collapse plugin
+                          adds the appropriate classes that we use to style each
+                          element. These classes control the overall appearance,
+                          as well as the showing and hiding via CSS transitions.
+                          You can modify any of this with custom CSS or
+                          overriding our default variables. It's also worth
+                          noting that just about any HTML can go within the{" "}
+                          <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </nav>
-              </div>
-            </div>
-            <div className="space-y-6 py-6 px-5">
-              <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                <a
-                  href="#"
-                  className="text-sm font-small text-gray-900 hover:text-gray-700"
-                >
-                  Pricing
-                </a>
-
-                <a
-                  href="#"
-                  className="text-sm font-small text-gray-900 hover:text-gray-700"
-                >
-                  Docs
-                </a>
-                {resourcesEntries.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="text-sm font-small text-gray-900 hover:text-gray-700"
-                  >
-                    {item.name}
-                  </a>
-                ))}
-              </div>
-              <div>
-                <a
-                  href="#"
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-emerald-400 px-4 py-2 text-sm font-small text-white shadow-sm hover:bg-emerald-500"
-                >
-                  Contact us
-                </a>
               </div>
             </div>
           </div>
