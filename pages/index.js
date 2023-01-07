@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         <div className="w-[90%] sm:w-[50%] my-10">
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=SleKuPjxZjE"
+            url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             width="auto"
           />
         </div>
@@ -154,6 +154,26 @@ export default function Home() {
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
               Dana Morris
+              </p>
+            </div>
+            <div className="sm:w-[30%]">
+              <h3 className="text-2xl font-bold tracking-tight text-slate-900">
+                2023
+              </h3>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                Mereva Lois Aniceto
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                Rachel Lui
+                </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                Victoria Le
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Katelyn Dinh Nguyen
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              Andre Nguyen 
               </p>
             </div>
           </div>
