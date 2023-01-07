@@ -89,9 +89,9 @@ export default function Home() {
             </h2>
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
-          <div className="mx-auto ml-28 flex flex-col sm:flex-row justify-between">
+          <div className="mx-auto flex flex-col sm:flex-row justify-between">
             <div className="sm:w-[30%]">
-              <h3 className="text-2xl font-bold tracking-tight text-slate-900">
+              <h3 className="text-2xl mt-8 font-bold tracking-tight text-slate-900">
                 2020
               </h3>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
@@ -111,7 +111,7 @@ export default function Home() {
               </p>
             </div>
             <div className="sm:w-[30%]">
-              <h3 className="text-2xl font-bold tracking-tight text-slate-900">
+              <h3 className="text-2xl mt-8 font-bold tracking-tight text-slate-900">
                 2021
               </h3>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
@@ -131,7 +131,7 @@ export default function Home() {
               </p>
             </div>
             <div className="sm:w-[30%]">
-              <h3 className="text-2xl font-bold tracking-tight text-slate-900">
+              <h3 className="text-2xl mt-8 font-bold tracking-tight text-slate-900">
                 2022
               </h3>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
@@ -157,7 +157,7 @@ export default function Home() {
               </p>
             </div>
             <div className="sm:w-[30%]">
-              <h3 className="text-2xl font-bold tracking-tight text-slate-900">
+              <h3 className="text-2xl mt-8 font-bold tracking-tight text-slate-900">
                 2023
               </h3>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
