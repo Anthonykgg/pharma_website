@@ -28,8 +28,8 @@ export default function Contact() {
         id="student_chapter"
         className="py-40 px-[10%] bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400"
       >
-        <div className="flex flex-col lg:flex-row justify-between mx-auto max-w-7xl">
-          <div className="lg:max-w-[50%] text-white">
+        <div className="flex flex-col lg:flex-row justify-center mx-auto max-w-7xl">
+          <div className="lg:max-w-[50%] pt-8 text-white">
             <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
               Dr. Micah Hata
             </h2>
@@ -51,10 +51,11 @@ export default function Contact() {
               </a>{" "}
             </p>
           </div>
-          <div className="lg:max-w-[45%]">
+          <div className="lg:max-w-[20%] pr-12 pt-8">
             <Image
-              src="/professor.png"
-              alt="AMCP Website"
+              src="/professor.jpg"
+              alt="professor picture"
+              className="rounded-lg"
               width="765"
               height="345"
             />
