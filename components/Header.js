@@ -174,13 +174,15 @@ export default function Header() {
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/">
               <span className="sr-only">WesternU AMCP Health Helper</span>
-              <Image
-                src="/logo_amcp.svg"
-                alt="Logo AMCP"
-                className="h-8 w-auto sm:h-10"
-                width="110"
-                height="40"
-              />
+              <a href="https://pharma-website-psi.vercel.app/" rel="noreferrer">
+                <Image
+                  src="/logo_amcp.svg"
+                  alt="Logo AMCP"
+                  className="h-8 w-auto sm:h-10"
+                  width="110"
+                  height="40"
+                />
+              </a>
             </Link>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
