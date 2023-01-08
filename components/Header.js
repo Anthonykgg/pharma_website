@@ -157,7 +157,7 @@ const resourcesEntries = [
   {
     name: "Contact ",
     description: "Contact us with any inquiries.",
-    href: "#",
+    href: "/contact",
     icon: ChatBubbleOvalLeftIcon,
   },
 ];
