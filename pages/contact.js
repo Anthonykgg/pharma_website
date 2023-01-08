@@ -28,7 +28,7 @@ export default function Contact() {
             >
               amcpclub@westernu.edu
             </a>{" "}
-            amcpclub@westernu.edu or our WesternU AMCP pharmacist advisors:
+            or our WesternU AMCP pharmacist advisors:
           </p>
         </div>
       </section>
