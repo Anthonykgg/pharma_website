@@ -571,18 +571,29 @@ export default function Header() {
                         data-bs-parent="#accordionExample"
                       >
                         <div class="accordion-body py-4 px-5">
-                          <strong>
-                            This is the second item's accordion body.
-                          </strong>{" "}
-                          It is hidden by default, until the collapse plugin
-                          adds the appropriate classes that we use to style each
-                          element. These classes control the overall appearance,
-                          as well as the showing and hiding via CSS transitions.
-                          You can modify any of this with custom CSS or
-                          overriding our default variables. It's also worth
-                          noting that just about any HTML can go within the{" "}
-                          <code>.accordion-body</code>, though the transition
-                          does limit overflow.
+                          <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                            {diseaseStatesEntries.map((item) => (
+                              <a
+                                key={item.name}
+                                href={item.href}
+                                target={item.target}
+                                className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
+                              >
+                                <item.icon
+                                  className="h-6 w-6 flex-shrink-0 text-emerald-400"
+                                  aria-hidden="true"
+                                />
+                                <div className="ml-4">
+                                  <p className="text-sm font-small text-gray-900">
+                                    {item.name}
+                                  </p>
+                                  <p className="mt-1 text-sm font-small text-gray-500">
+                                    {item.description}
+                                  </p>
+                                </div>
+                              </a>
+                            ))}
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -621,23 +632,34 @@ export default function Header() {
                         data-bs-parent="#accordionExample"
                       >
                         <div class="accordion-body py-4 px-5">
-                          <strong>
-                            This is the third item's accordion body.
-                          </strong>{" "}
-                          It is hidden by default, until the collapse plugin
-                          adds the appropriate classes that we use to style each
-                          element. These classes control the overall appearance,
-                          as well as the showing and hiding via CSS transitions.
-                          You can modify any of this with custom CSS or
-                          overriding our default variables. It's also worth
-                          noting that just about any HTML can go within the{" "}
-                          <code>.accordion-body</code>, though the transition
-                          does limit overflow.
+                          <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                            {medicationEntries.map((item) => (
+                              <a
+                                key={item.name}
+                                href={item.href}
+                                target={item.target}
+                                className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
+                              >
+                                <item.icon
+                                  className="h-6 w-6 flex-shrink-0 text-emerald-400"
+                                  aria-hidden="true"
+                                />
+                                <div className="ml-4">
+                                  <p className="text-sm font-small text-gray-900">
+                                    {item.name}
+                                  </p>
+                                  <p className="mt-1 text-sm font-small text-gray-500">
+                                    {item.description}
+                                  </p>
+                                </div>
+                              </a>
+                            ))}
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item bg-white border border-gray-200">
-                      <h2 class="accordion-header mb-0" id="headingThree">
+                      <h2 class="accordion-header mb-0" id="headingFour">
                         <button
                           class="
         accordion-button
@@ -657,32 +679,41 @@ export default function Header() {
       "
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapseThree"
+                          data-bs-target="#collapseFour"
                           aria-expanded="false"
-                          aria-controls="collapseThree"
+                          aria-controls="collapseFour"
                         >
                           More Resources
                         </button>
                       </h2>
                       <div
-                        id="collapseThree"
+                        id="collapseFour"
                         class="accordion-collapse collapse"
-                        aria-labelledby="headingThree"
+                        aria-labelledby="headingFour"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="accordion-body py-4 px-5">
-                          <strong>
-                            This is the third item's accordion body.
-                          </strong>{" "}
-                          It is hidden by default, until the collapse plugin
-                          adds the appropriate classes that we use to style each
-                          element. These classes control the overall appearance,
-                          as well as the showing and hiding via CSS transitions.
-                          You can modify any of this with custom CSS or
-                          overriding our default variables. It's also worth
-                          noting that just about any HTML can go within the{" "}
-                          <code>.accordion-body</code>, though the transition
-                          does limit overflow.
+                        <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                          {resourcesEntries.map((item) => (
+                            <a
+                              key={item.name}
+                              href={item.href}
+                              target={item.target}
+                              className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
+                            >
+                              <item.icon
+                                className="h-6 w-6 flex-shrink-0 text-emerald-400"
+                                aria-hidden="true"
+                              />
+                              <div className="ml-4">
+                                <p className="text-sm font-small text-gray-900">
+                                  {item.name}
+                                </p>
+                                <p className="mt-1 text-sm font-small text-gray-500">
+                                  {item.description}
+                                </p>
+                              </div>
+                            </a>
+                          ))}
                         </div>
                       </div>
                     </div>
