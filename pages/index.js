@@ -23,8 +23,17 @@ export default function Home() {
             Research and Education Committee of the WesternU AMCP Student
             Chapter. Our goal is to empower patients to take control of their
             health by providing patients resources ranging from flyers about
-            common diseases to links to useful healthcare websites.
+            common diseases to links to useful healthcare websites. Join our
+            movement by pressing pledge down below.
           </p>
+          <a
+            className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-emerald-300 text-white hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
+            href="https://docs.google.com/forms/d/1J3WEnLG0JN47-H05pifAYZHQC72-WAEv6-GJonCkEk0/viewform?edit_requested=true"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Pledge
+          </a>
         </div>
         <div className="w-[90%] sm:w-[50%] my-10">
           <ReactPlayer
