@@ -52,7 +52,9 @@ export default function Home() {
               >
                 amcpwesternu.weebly.com
               </a>{" "}
-              for more information about what our chapter entails. Be in the loop for all the upcoming managed care topics and current pharmacy related events!
+              for more information about what our chapter entails. Be in the
+              loop for all the upcoming managed care topics and current pharmacy
+              related events!
             </p>
             <a
               className="group flex md:inline-block items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10 mb-10 lg:mb-0"
@@ -79,14 +81,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section
-        id="research committee"
-        className="py-40 px-[10%]"
-      >
+      <section id="research committee" className="py-40 px-[10%]">
         <div className="pb-20 mx-auto max-w-7xl">
-            <h2 className="font-display text-3xl tracking-tight text-emerald-300 sm:text-4xl">
-              Research and Education committee members
-            </h2>
+          <h2 className="font-display text-3xl tracking-tight text-emerald-300 sm:text-4xl">
+            Research and Education committee members
+          </h2>
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div className="mx-auto flex flex-col sm:flex-row justify-between">
@@ -95,19 +94,19 @@ export default function Home() {
                 2020
               </h3>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                Mallory Lu 
+                Mallory Lu
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 Jeremy Barahona
-                </p>
+              </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 Christine Kim
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Jeremiah Sabocor
+                Jeremiah Sabocor
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Crystal Lao
+                Crystal Lao
               </p>
             </div>
             <div className="sm:w-[30%]">
@@ -115,19 +114,19 @@ export default function Home() {
                 2021
               </h3>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Andrew Pham
+                Andrew Pham
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Laurin Randle
+                Laurin Randle
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Dia Cabrera
+                Dia Cabrera
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Shaun Castillo
+                Shaun Castillo
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Phoebe Wu
+                Phoebe Wu
               </p>
             </div>
             <div className="sm:w-[30%]">
@@ -135,25 +134,25 @@ export default function Home() {
                 2022
               </h3>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Annie Lam
+                Annie Lam
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Dia Cabrera
+                Dia Cabrera
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Leanna Hunt
+                Leanna Hunt
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Erin Chiang
+                Erin Chiang
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Joni Borlongan
+                Joni Borlongan
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              David Doan
+                David Doan
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Dana Morris
+                Dana Morris
               </p>
             </div>
             <div className="sm:w-[30%]">
@@ -165,15 +164,15 @@ export default function Home() {
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 Rachel Lui
-                </p>
+              </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 Victoria Le
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Katelyn Dinh Nguyen
+                Katelyn Dinh Nguyen
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
-              Andre Nguyen 
+                Andre Nguyen
               </p>
             </div>
           </div>
