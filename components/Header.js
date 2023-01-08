@@ -481,7 +481,7 @@ export default function Header() {
                         <button
                           class="
                             accordion-button
-                            relative
+                            collapsed
                             flex
                             items-center
                             w-full
@@ -505,7 +505,7 @@ export default function Header() {
                       </h2>
                       <div
                         id="collapseOne"
-                        class="accordion-collapse collapse show"
+                        class="accordion-collapse collapse"
                         aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample"
                       >
