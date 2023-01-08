@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import "tw-elements";
 import Image from "next/image";
+import Link from "next/link";
 
 import { Popover, Transition } from "@headlessui/react";
 import {
@@ -10,27 +11,15 @@ import {
   Bars3Icon,
   BeakerIcon,
   BookmarkSquareIcon,
-  BookOpenIcon,
-  BuildingOfficeIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
-  ChartBarIcon,
   ChatBubbleOvalLeftIcon,
   ChevronRightIcon,
   ClipboardDocumentIcon,
   ClipboardDocumentListIcon,
   CogIcon,
-  CursorArrowRaysIcon,
-  FlagIcon,
   HeartIcon,
   InformationCircleIcon,
-  LifebuoyIcon,
-  PhoneIcon,
-  PlayIcon,
-  ShieldCheckIcon,
-  Squares2X2Icon,
   TicketIcon,
-  WalletIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
@@ -183,7 +172,7 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="/">
+            <Link href="/">
               <span className="sr-only">WesternU AMCP Health Helper</span>
               <Image
                 src="/logo_amcp.svg"
@@ -192,7 +181,7 @@ export default function Header() {
                 width="110"
                 height="40"
               />
-            </a>
+            </Link>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-emerald-300">
