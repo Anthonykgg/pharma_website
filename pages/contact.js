@@ -19,7 +19,15 @@ export default function Contact() {
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
             For any questions or inquiries about the resources or information
-            presented on this website, feel free to contact WesternU AMCP at
+            presented on this website, feel free to contact WesternU AMCP at{" "}
+            <a
+              className="underline"
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:amcpclub@westernu.edu"
+            >
+              amcpclub@westernu.edu
+            </a>{" "}
             amcpclub@westernu.edu or our WesternU AMCP pharmacist advisors:
           </p>
         </div>
