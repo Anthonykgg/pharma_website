@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Popover, Transition } from "@headlessui/react";
 import {
   AcademicCapIcon,
+  ArchiveBoxIcon,
   ArrowPathIcon,
   Bars3Icon,
   BeakerIcon,
@@ -17,6 +18,8 @@ import {
   ChatBubbleOvalLeftIcon,
   ChevronRightIcon,
   ClipboardDocumentIcon,
+  ClipboardDocumentListIcon,
+  CogIcon,
   CursorArrowRaysIcon,
   FlagIcon,
   HeartIcon,
@@ -116,33 +119,22 @@ const diseaseStatesEntries = [
 ];
 const medicationEntries = [
   {
-    name: "medication",
-    href: "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html",
-    target: "_blank",
-    icon: InformationCircleIcon,
-  },
-  {
-    name: "When can I get the vaccine?",
-    href: "https://myturn.ca.gov/",
-    target: "_blank",
-    icon: BeakerIcon,
-  },
-  {
-    name: "Updates on Covid-19",
-    href: "https://www.fda.gov/emergency-preparedness-and-response/counterterrorism-and-emerging-threats/coronavirus-disease-2019-covid-19",
-    target: "_blank",
-    icon: ArrowPathIcon,
-  },
-  {
-    name: "Where to test for Covid-19",
-    href: "https://www.hhs.gov/coronavirus/community-based-testing-sites/index.html#ca",
-    target: "_blank",
-    icon: BuildingOffice2Icon,
-  },
-  {
-    name: "Infographics for Pharmacies",
+    name: "Medication Adherence",
     href: "#",
-    icon: ClipboardDocumentIcon,
+    target: "_blank",
+    icon: ClipboardDocumentListIcon,
+  },
+  {
+    name: "Safe Drug Storage",
+    href: "#",
+    target: "_blank",
+    icon: ArchiveBoxIcon,
+  },
+  {
+    name: "Antimicrobial Resistance",
+    href: "#",
+    target: "_blank",
+    icon: CogIcon,
   },
 ];
 const resourcesEntries = [
