@@ -487,7 +487,7 @@ export default function Header() {
                             w-full
                             py-4
                             px-5
-                            text-base text-gray-800 text-left
+                            text-base text-gray-500 text-left
                             bg-white
                             border-0
                             rounded-none
@@ -500,7 +500,7 @@ export default function Header() {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          Accordion Item #1
+                          Covid-19 Vaccine
                         </button>
                       </h2>
                       <div
@@ -548,7 +548,7 @@ export default function Header() {
         w-full
         py-4
         px-5
-        text-base text-gray-800 text-left
+        text-base text-gray-500 text-left
         bg-white
         border-0
         rounded-none
@@ -561,7 +561,7 @@ export default function Header() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          Accordion Item #2
+                          Disease States
                         </button>
                       </h2>
                       <div
@@ -598,7 +598,7 @@ export default function Header() {
         w-full
         py-4
         px-5
-        text-base text-gray-800 text-left
+        text-base text-gray-500 text-left
         bg-white
         border-0
         rounded-none
@@ -611,7 +611,7 @@ export default function Header() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          Accordion Item #3
+                          Medications
                         </button>
                       </h2>
                       <div
@@ -648,7 +648,7 @@ export default function Header() {
         w-full
         py-4
         px-5
-        text-base text-gray-800 text-left
+        text-base text-gray-500 text-left
         bg-white
         border-0
         rounded-none
@@ -661,7 +661,7 @@ export default function Header() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          Accordion Item #3
+                          More Resources
                         </button>
                       </h2>
                       <div
