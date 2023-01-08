@@ -45,25 +45,19 @@ export default function Contact() {
                 className="underline"
                 target="_blank"
                 rel="noreferrer"
-                href="http://www.amcpwesternu.weebly.com"
+                href="mailto:mhata@westernu.edu"
               >
                 mhata@westernu.edu
               </a>{" "}
             </p>
           </div>
           <div className="lg:max-w-[45%]">
-            <a
-              href="http://www.amcpwesternu.weebly.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image
-                src="/amcp_website.png"
-                alt="AMCP Website"
-                width="765"
-                height="345"
-              />
-            </a>
+            <Image
+              src="/professor.png"
+              alt="AMCP Website"
+              width="765"
+              height="345"
+            />
           </div>
         </div>
       </section>
