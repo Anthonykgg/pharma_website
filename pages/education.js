@@ -17,7 +17,7 @@ export default function Education() {
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
           <div className="mx-auto flex flex-col sm:flex-row justify-between">
-            <div className="sm:w-[30%]">
+            <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
                 From a Doctor of Physical Therapy candidate's words
               </h2>
@@ -72,7 +72,7 @@ export default function Education() {
                 COVID-19.
               </li>
             </div>
-            <div className="sm:w-[30%]">
+            <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
                 From a Doctor of Osteopathic Medicine candidate's words
               </h2>
