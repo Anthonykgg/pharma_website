@@ -145,7 +145,7 @@ const resourcesEntries = [
     name: "Interprofessional Education",
     description:
       "Find out how medications are closely tied to other healthcare professionals.",
-    href: "#",
+    href: "/education",
     icon: AcademicCapIcon,
   },
   {
