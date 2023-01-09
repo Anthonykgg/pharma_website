@@ -59,25 +59,21 @@ const diseaseStatesEntries = [
   {
     name: "Common cold vs Flu vs Covid-19",
     href: "#",
-    target: "_blank",
     icon: ChevronRightIcon,
   },
   {
     name: "High Blood Pressure",
     href: "#",
-    target: "_blank",
     icon: ChevronRightIcon,
   },
   {
     name: "Diabetes",
     href: "#",
-    target: "_blank",
     icon: ChevronRightIcon,
   },
   {
     name: "High Cholesterol",
     href: "#",
-    target: "_blank",
     icon: ChevronRightIcon,
   },
   {
@@ -151,7 +147,7 @@ const resourcesEntries = [
   {
     name: "References",
     description: "Source citations.",
-    href: "#",
+    href: "/references",
     icon: BookmarkSquareIcon,
   },
   {
