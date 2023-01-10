@@ -18,58 +18,63 @@ export default function References() {
           <div className="mx-auto flex flex-col sm:flex-row justify-between">
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                From a Doctor of Physical Therapy candidate's words
+                Asthma
               </h2>
-              <li className="mt-1.5 text-base tracking-tight text-slate-600">
-                High blood pressure is something PTs must take into
-                consideration when treating patients. PTs are movement
-                specialists, and our job is to get people moving. When it comes
-                to acute care settings (in-patient hospitals, ICUs, SNFs, etc.),
-                blood pressure is taken before, during, and after most
-                treatments.
-              </li>
-              <li className="mt-1.5 text-base tracking-tight text-slate-600">
-                Asthma treatment through PT can vary for each patient. Treatment
-                options focus on improving the quality of breathing or the
-                efficiency. Breathing techniques can be practiced and
-                prescribed, such as diaphragmatic breathing or pursed lip
-                breathing. The muscles used for breathing can be strengthened
-                through neuromuscular education, using a device that provides a
-                resistive load against inspiration, or even aquatic exercise.
-                The water in a pool will provide resistance against inspiration,
-                but this will need to be monitored as it can be too restricting
-                on patients especially if they already had breathing
-                difficulties.
-              </li>
-              <li className="mt-1.5 text-base tracking-tight text-slate-600">
-                Other considerations for asthma treatment are if the patient has
-                mucus build up in their respiratory system. There are percussive
-                treatments and postural drainage techniques that PTs can use to
-                help clear the lungs based on where the mucus has built up.
-                There are also techniques to help the patient cough most
-                effectively to clear mucus. One such way is using a very quick
-                cryotherapy application. Taking an ice cube in a quick swipe to
-                the patient's back can cause the expiratory muscles to fire and
-                produce a cough.
-              </li>
-              <li className="mt-1.5 text-base tracking-tight text-slate-600">
-                Lifestyle changes for patients with asthma include limiting
-                exposure to respiratory irritants, like dust, smoke, pet dander,
-                etc. Postural education and correction can also benefit those
-                with asthma. Poor posture can limit the ability of the
-                respiratory muscle to function properly/efficiently and can
-                limit the amount that the lungs can expand while breathing. This
-                can include stretching tight muscles and joints and
-                strengthening others, depending on the presentation of the
-                patient.
-              </li>
-              <li className="mt-1.5 text-base tracking-tight text-slate-600">
-                We have not had much discussion on COVID-19 specific treatments
-                within the realm of physical therapy. Assisting patients in
-                sitting, standing, and walking as tolerated will benefit their
-                condition or at least limit the negative impact of symptomatic
-                COVID-19.
-              </li>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                {" "}
+                <a
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma"
+                >
+                  https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma
+                </a>
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                {" "}
+                <a
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.cdc.gov/asthma/default.htm"
+                >
+                  https://www.cdc.gov/asthma/default.htm
+                </a>
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                {" "}
+                <a
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653"
+                >
+                  https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653
+                </a>
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                {" "}
+                <a
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.nhlbi.nih.gov/health-topics/asthma"
+                >
+                  https://www.nhlbi.nih.gov/health-topics/asthma
+                </a>
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                {" "}
+                <a
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma"
+                >
+                  https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma
+                </a>
+              </p>
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
