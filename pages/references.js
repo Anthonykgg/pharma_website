@@ -138,7 +138,7 @@ export default function References() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                Asthma
+                Diabetes
               </h2>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
