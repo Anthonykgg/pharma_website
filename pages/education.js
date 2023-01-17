@@ -19,7 +19,7 @@ export default function Education() {
           <div className="mx-auto flex flex-col sm:flex-row justify-between">
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                From a Doctor of Physical Therapy candidate's words
+                From a Doctor of Physical Therapy candidate&apos;s words
               </h2>
               <li className="mt-1.5 text-base tracking-tight text-slate-600">
                 High blood pressure is something PTs must take into
@@ -50,8 +50,8 @@ export default function Education() {
                 There are also techniques to help the patient cough most
                 effectively to clear mucus. One such way is using a very quick
                 cryotherapy application. Taking an ice cube in a quick swipe to
-                the patient's back can cause the expiratory muscles to fire and
-                produce a cough.
+                the patient&apos;s back can cause the expiratory muscles to fire
+                and produce a cough.
               </li>
               <li className="mt-1.5 text-base tracking-tight text-slate-600">
                 Lifestyle changes for patients with asthma include limiting
@@ -74,16 +74,17 @@ export default function Education() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                From a Doctor of Osteopathic Medicine candidate's words
+                From a Doctor of Osteopathic Medicine candidate&apos;s words
               </h2>
               <li className="mt-1.5 text-base tracking-tight text-slate-600">
                 Pulmonary: Although COVID-19 is asymptomatic for most, patients
                 can get very sick with symptoms. In a study conducted in the
                 United States, 20% of people with diagnosed COVID-19 developed
                 acute respiratory distress syndrome, and 12.3% of them needed
-                mechanical ventilation to stay alive. (See "Coronavirus disease
-                2019 (COVID-19): Critical care and airway management issues",
-                section on 'Clinical features in critically ill patients'.)
+                mechanical ventilation to stay alive. (See &quot;Coronavirus
+                disease 2019 (COVID-19): Critical care and airway management
+                issues&quot;, section on &apos;Clinical features in critically
+                ill patients&apos;.)
               </li>
               <li className="mt-1.5 text-base tracking-tight text-slate-600">
                 Cardiovascular: Other complications arising from COVID-19
