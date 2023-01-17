@@ -1,5 +1,6 @@
 import Image from "next/image";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 const Header = dynamic(() => import("../components/Header"), { ssr: false });
 const Footer = dynamic(() => import("../components/Footer"), { ssr: false });
