@@ -19,7 +19,7 @@ export default function Education() {
           <div className="mx-auto flex flex-col sm:flex-row justify-between">
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                From a Doctor of Physical Therapy candidate's words
+                From a Doctor of Physical Therapy candidates words
               </h2>
               <li className="mt-1.5 text-base tracking-tight text-slate-600">
                 High blood pressure is something PTs must take into
@@ -74,7 +74,7 @@ export default function Education() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                From a Doctor of Osteopathic Medicine candidate's words
+                From a Doctor of Osteopathic Medicine candidates words
               </h2>
               <li className="mt-1.5 text-base tracking-tight text-slate-600">
                 Pulmonary: Although COVID-19 is asymptomatic for most, patients
