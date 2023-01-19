@@ -15,7 +15,7 @@ export default function References() {
           </h1>
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
-          <div className="mx-auto flex flex-wrap flex-col sm:flex-row justify-between">
+          <div className="mx-auto justify-center">
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
                 Asthma
