@@ -78,7 +78,67 @@ export default function References() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                High Blood Pressure
+                Cold v. Flu v. Covid-19
+              </h2>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                {" "}
+                <a
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma"
+                >
+                  https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma
+                </a>
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                {" "}
+                <a
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.cdc.gov/asthma/default.htm"
+                >
+                  https://www.cdc.gov/asthma/default.htm
+                </a>
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                {" "}
+                <a
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653"
+                >
+                  https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653
+                </a>
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                {" "}
+                <a
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.nhlbi.nih.gov/health-topics/asthma"
+                >
+                  https://www.nhlbi.nih.gov/health-topics/asthma
+                </a>
+              </p>
+              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+                {" "}
+                <a
+                  className="underline"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma"
+                >
+                  https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma
+                </a>
+              </p>
+            </div>
+            <div className="sm:w-[45%]">
+              <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
+                COPD
               </h2>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
@@ -198,7 +258,7 @@ export default function References() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                Asthma
+                Heart Failure
               </h2>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
@@ -258,7 +318,7 @@ export default function References() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                Asthma
+                High Blood Pressure
               </h2>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
@@ -318,7 +378,7 @@ export default function References() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                Asthma
+                High Cholesterol
               </h2>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
@@ -378,7 +438,7 @@ export default function References() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                Asthma
+                Osteoporosis
               </h2>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
@@ -438,67 +498,7 @@ export default function References() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                Asthma
-              </h2>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma"
-                >
-                  https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.cdc.gov/asthma/default.htm"
-                >
-                  https://www.cdc.gov/asthma/default.htm
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653"
-                >
-                  https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.nhlbi.nih.gov/health-topics/asthma"
-                >
-                  https://www.nhlbi.nih.gov/health-topics/asthma
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma"
-                >
-                  https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma
-                </a>
-              </p>
-            </div>
-            <div className="sm:w-[45%]">
-              <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                Asthma
+                Pneumonia
               </h2>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
