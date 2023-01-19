@@ -262,9 +262,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma"
+                  href="https://www.cdc.gov/diabetes/basics/quick-facts.html"
                 >
-                  https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma
+                  https://www.cdc.gov/diabetes/basics/quick-facts.html
                 </a>
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
@@ -273,42 +273,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.cdc.gov/asthma/default.htm"
+                  href="https://www.diabetes.org/covid-19-faq"
                 >
-                  https://www.cdc.gov/asthma/default.htm
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653"
-                >
-                  https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.nhlbi.nih.gov/health-topics/asthma"
-                >
-                  https://www.nhlbi.nih.gov/health-topics/asthma
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma"
-                >
-                  https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma
+                  https://www.diabetes.org/covid-19-faq
                 </a>
               </p>
             </div>
@@ -322,9 +289,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma"
+                  href="https://www.cdc.gov/dhdsp/data_statistics/fact_sheets/fs_heart_failure.htm"
                 >
-                  https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma
+                  https://www.cdc.gov/dhdsp/data_statistics/fact_sheets/fs_heart_failure.htm
                 </a>
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
@@ -333,9 +300,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.cdc.gov/asthma/default.htm"
+                  href="https://www.cardiosmart.org/~/media/Images/Infographics/2016/Heart%20Failure%20resize.ashx"
                 >
-                  https://www.cdc.gov/asthma/default.htm
+                  https://www.cardiosmart.org/~/media/Images/Infographics/2016/Heart%20Failure%20resize.ashx
                 </a>
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
@@ -344,31 +311,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653"
+                  href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#heart-conditions"
                 >
-                  https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.nhlbi.nih.gov/health-topics/asthma"
-                >
-                  https://www.nhlbi.nih.gov/health-topics/asthma
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma"
-                >
-                  https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma
+                  https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#heart-conditions
                 </a>
               </p>
             </div>
@@ -382,9 +327,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma"
+                  href="https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/what-is-high-blood-pressure"
                 >
-                  https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma
+                  https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/what-is-high-blood-pressure
                 </a>
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
@@ -393,9 +338,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.cdc.gov/asthma/default.htm"
+                  href="https://www.heart.org/en/health-topics/high-blood-pressure/why-high-blood-pressure-is-a-silent-killer/what-are-the-symptoms-of-high-blood-pressure"
                 >
-                  https://www.cdc.gov/asthma/default.htm
+                  https://www.heart.org/en/health-topics/high-blood-pressure/why-high-blood-pressure-is-a-silent-killer/what-are-the-symptoms-of-high-blood-pressure
                 </a>
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
@@ -404,9 +349,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653"
+                  href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html"
                 >
-                  https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653
+                  https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html
                 </a>
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
@@ -415,20 +360,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.nhlbi.nih.gov/health-topics/asthma"
+                  href="http://www.onlinejacc.org/content/71/19/e127?_ga=2.23809855.468353801.1610422981-1909084498.1610422981"
                 >
-                  https://www.nhlbi.nih.gov/health-topics/asthma
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma"
-                >
-                  https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma
+                  http://www.onlinejacc.org/content/71/19/e127?_ga=2.23809855.468353801.1610422981-1909084498.1610422981
                 </a>
               </p>
             </div>
@@ -562,9 +496,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma"
+                  href="https://www.nfid.org/infectious-diseases/pneumococcal-infographic/"
                 >
-                  https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/learn-about-asthma
+                  https://www.nfid.org/infectious-diseases/pneumococcal-infographic/
                 </a>
               </p>
               <p className="mt-1.5 text-base tracking-tight text-slate-600">
@@ -573,42 +507,9 @@ export default function References() {
                   className="underline"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.cdc.gov/asthma/default.htm"
+                  href="https://www.cdc.gov/globalhealth/immunization/infographic/pneumo.htm"
                 >
-                  https://www.cdc.gov/asthma/default.htm
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653"
-                >
-                  https://www.mayoclinic.org/diseases-conditions/asthma/symptoms-causes/syc-20369653
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.nhlbi.nih.gov/health-topics/asthma"
-                >
-                  https://www.nhlbi.nih.gov/health-topics/asthma
-                </a>
-              </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
-                {" "}
-                <a
-                  className="underline"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma"
-                >
-                  https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html#asthma
+                  https://www.cdc.gov/globalhealth/immunization/infographic/pneumo.htm
                 </a>
               </p>
             </div>
