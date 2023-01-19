@@ -27,8 +27,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 const covidVaccinesEntries = [
   {
     name: "Information",
-    href: "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html",
-    target: "_blank",
+    href: "/information",
     icon: InformationCircleIcon,
   },
   {
