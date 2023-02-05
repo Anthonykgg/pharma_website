@@ -114,7 +114,7 @@ const medicationEntries = [
   },
   {
     name: "Antimicrobial Resistance",
-    href: "#",
+    href: "/antimicrobial",
     icon: CogIcon,
   },
 ];
