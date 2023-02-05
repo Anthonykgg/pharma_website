@@ -97,7 +97,7 @@ const diseaseStatesEntries = [
   },
   {
     name: "Osteoporosis",
-    href: "#",
+    href: "/osteoporosis",
     icon: ChevronRightIcon,
   },
 ];
