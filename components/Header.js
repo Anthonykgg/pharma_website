@@ -108,7 +108,7 @@ const medicationEntries = [
     icon: ClipboardDocumentListIcon,
   },
   {
-    name: "Safe Drug Storage",
+    name: "Safe Drug Storage/Disposal",
     href: "/safedrug",
     icon: ArchiveBoxIcon,
   },
