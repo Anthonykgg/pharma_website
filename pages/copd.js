@@ -15,12 +15,14 @@ export default function copd() {
       >
         <div>
           <h1 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Chronic Obstructive Pulmonary
-            <span className="text-emerald-300"> Disease </span>
+            Chronic Obstructive
+            <span className="text-emerald-300"> Pulmonary Disease </span>
           </h1>
         </div>
         <div className="lg:max-w-[45%] pt-8">
-          <Image src="/COPD.png" alt="Covid 1" width="765" height="345" />
+          <a href="COPD.pdf" target="_blank" rel="noreferrer">
+            <Image src="/COPD.png" alt="Covid 1" width="765" height="345" />
+          </a>
           <div className="mx-auto flex flex-wrap flex-col sm:flex-row justify-around">
             <Link
               className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-emerald-300 text-white hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
