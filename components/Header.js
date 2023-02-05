@@ -82,7 +82,7 @@ const diseaseStatesEntries = [
   },
   {
     name: "COPD",
-    href: "#",
+    href: "/copd",
     icon: ChevronRightIcon,
   },
   {
