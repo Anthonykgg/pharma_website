@@ -50,7 +50,7 @@ const covidVaccinesEntries = [
   },
   {
     name: "Infographics for Pharmacies",
-    href: "#",
+    href: "/infographics",
     icon: ClipboardDocumentIcon,
   },
 ];
