@@ -72,7 +72,7 @@ const diseaseStatesEntries = [
   },
   {
     name: "High Cholesterol",
-    href: "#",
+    href: "/highCho",
     icon: ChevronRightIcon,
   },
   {
