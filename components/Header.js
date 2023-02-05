@@ -104,20 +104,17 @@ const diseaseStatesEntries = [
 const medicationEntries = [
   {
     name: "Medication Adherence",
-    href: "#",
-    target: "_blank",
+    href: "/medadh",
     icon: ClipboardDocumentListIcon,
   },
   {
     name: "Safe Drug Storage",
     href: "#",
-    target: "_blank",
     icon: ArchiveBoxIcon,
   },
   {
     name: "Antimicrobial Resistance",
     href: "#",
-    target: "_blank",
     icon: CogIcon,
   },
 ];
