@@ -57,7 +57,7 @@ const covidVaccinesEntries = [
 const diseaseStatesEntries = [
   {
     name: "Common cold vs Flu vs Covid-19",
-    href: "#",
+    href: "/coldVflu",
     icon: ChevronRightIcon,
   },
   {

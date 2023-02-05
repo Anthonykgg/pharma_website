@@ -9,7 +9,7 @@ export default function Education() {
   return (
     <div id="main">
       <Header />
-      <section id="interprofessional education" className="py-20 px-[10%]">
+      <section id="information" className="py-20 px-[10%]">
         <div className="pb-10 mx-auto max-w-7xl">
           <h1 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
             Information
