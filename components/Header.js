@@ -62,7 +62,7 @@ const diseaseStatesEntries = [
   },
   {
     name: "High Blood Pressure",
-    href: "#",
+    href: "/highBlood",
     icon: ChevronRightIcon,
   },
   {
