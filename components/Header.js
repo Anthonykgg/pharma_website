@@ -67,7 +67,7 @@ const diseaseStatesEntries = [
   },
   {
     name: "Diabetes",
-    href: "#",
+    href: "/diabetes",
     icon: ChevronRightIcon,
   },
   {
