@@ -77,7 +77,7 @@ const diseaseStatesEntries = [
   },
   {
     name: "Asthma",
-    href: "#",
+    href: "/asthma",
     icon: ChevronRightIcon,
   },
   {
