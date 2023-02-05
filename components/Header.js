@@ -109,7 +109,7 @@ const medicationEntries = [
   },
   {
     name: "Safe Drug Storage",
-    href: "#",
+    href: "/safedrug",
     icon: ArchiveBoxIcon,
   },
   {
