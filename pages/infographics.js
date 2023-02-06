@@ -149,6 +149,9 @@ export default function Inforgraphics() {
           </div>
         </div>
       </section>
+      <h2 className="italic mx-auto pb-10 max-w-2xl text-lg text-center tracking-tight text-slate-400">
+        Click on the flyers in order to download them
+      </h2>
       <Footer />
     </div>
   );
