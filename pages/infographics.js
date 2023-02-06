@@ -17,28 +17,58 @@ export default function Education() {
           </h1>
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
-          <div className="mx-auto flex flex-col sm:flex-row justify-between">
-            <div className="lg:max-w-[45%] pt-8">
-              <Image src="/covid1.png" alt="Covid 1" width="765" height="345" />
-              <div className="mx-auto flex flex-wrap flex-col sm:flex-row justify-evenly"></div>
+          <div className="mx-auto flex flex-wrap flex-col gap-4 sm:flex-row justify-evenly">
+            <div className="lg:max-w-[35%] pt-8">
+              <a href="exposurepatient.pdf" target="_blank" rel="noreferrer">
+                <Image
+                  src="/exposurepatient.png"
+                  alt="Covid 1"
+                  width="765"
+                  height="345"
+                />
+              </a>
             </div>
-            <div className="lg:max-w-[45%] pt-8">
-              <Image src="/covid2.png" alt="Covid 2" width="765" height="345" />
-              <div className="mx-auto flex flex-wrap flex-col sm:flex-row justify-evenly"></div>
+            <div className="lg:max-w-[35%] pt-8">
+              <a href="exposurestaff.pdf" target="_blank" rel="noreferrer">
+                <Image
+                  src="/exposurestaff.png"
+                  alt="Covid 2"
+                  width="765"
+                  height="345"
+                />
+              </a>
+            </div>
+            <div className="lg:max-w-[35%] pt-8">
+              <a href="policyprocedure.pdf" target="_blank" rel="noreferrer">
+                <Image
+                  src="/policyprocedure.png"
+                  alt="Covid 1"
+                  width="765"
+                  height="345"
+                />
+              </a>
+            </div>
+            <div className="lg:max-w-[35%] pt-8">
+              <a href="workflowstrat.pdf" target="_blank" rel="noreferrer">
+                <Image
+                  src="/workflowstrat.png"
+                  alt="Covid 1"
+                  width="765"
+                  height="345"
+                />
+              </a>
+            </div>
+            <div className="lg:max-w-[35%] pt-8">
+              <a href="patientcomm.pdf" target="_blank" rel="noreferrer">
+                <Image
+                  src="/patientcomm.png"
+                  alt="Covid 1"
+                  width="765"
+                  height="345"
+                />
+              </a>
             </div>
           </div>
-          <h2 className="mx-auto mt-16 max-w-2xl text-lg text-center tracking-tight text-slate-700">
-            For more information visit this{" "}
-            <a
-              className="underline"
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html"
-            >
-              website
-            </a>{" "}
-            .
-          </h2>
         </div>
       </section>
       <Footer />
