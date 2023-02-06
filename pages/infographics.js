@@ -94,7 +94,17 @@ export default function Inforgraphics() {
               <a href="mask2.pdf" target="_blank" rel="noreferrer">
                 <Image
                   src="/mask2.png"
-                  alt="Covid 2"
+                  alt="Covid 1"
+                  width="765"
+                  height="345"
+                />
+              </a>
+            </div>
+            <div className="lg:max-w-[35%] pt-8">
+              <a href="mask3.pdf" target="_blank" rel="noreferrer">
+                <Image
+                  src="/mask3.png"
+                  alt="Covid 1"
                   width="765"
                   height="345"
                 />
