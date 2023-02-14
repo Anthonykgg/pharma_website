@@ -38,7 +38,7 @@ export default function Home() {
         </div>
         <div className="w-[90%] sm:w-[50%] my-10">
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            url="https://www.youtube.com/watch?v=SleKuPjxZjE&t=1s"
             width="auto"
           />
         </div>
