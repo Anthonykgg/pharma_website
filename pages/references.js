@@ -80,7 +80,7 @@ export default function References() {
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
                 Cold v. Flu v. Covid-19
               </h2>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -91,7 +91,7 @@ export default function References() {
                   https://www.covidbestpractices.com
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -102,7 +102,7 @@ export default function References() {
                   https://www.cdc.gov/coronavirus/2019-ncov/healthcare-resources/pharmacies.html
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -113,7 +113,7 @@ export default function References() {
                   http://www.ncpa.co/media/webinar/COVID-Personnel-and-Safety-Issues.pdf
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -124,7 +124,7 @@ export default function References() {
                   https://www.cdc.gov/coronavirus/2019-ncov/hcp/ppe-strategy/burn-calculator.html
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -135,7 +135,7 @@ export default function References() {
                   https://www.avantinstitute.com/course?courseid=exclusivelighthouse
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -146,7 +146,7 @@ export default function References() {
                   https://www.cdc.gov/niosh/topics/hcwcontrols/recommendedguidanceextuse.html#ref19
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -157,7 +157,7 @@ export default function References() {
                   https://www.cdc.gov/coronavirus/2019-ncov/hcp/ppe-strategy/decontamination-reuse-respirators.html
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -168,7 +168,7 @@ export default function References() {
                   https://www.cdc.gov/hai/pdfs/ppe/ppe-sequence.pdf
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -179,7 +179,7 @@ export default function References() {
                   https://www.cdc.gov/dotw/common-cold/index.html
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -190,7 +190,7 @@ export default function References() {
                   https://www.cdc.gov/flu/treatment/index.html
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -201,7 +201,7 @@ export default function References() {
                   https://www.cdc.gov/flu/about/keyfacts.htm
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -217,7 +217,7 @@ export default function References() {
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
                 COPD
               </h2>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -256,7 +256,7 @@ export default function References() {
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
                 Diabetes
               </h2>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -267,7 +267,7 @@ export default function References() {
                   https://www.cdc.gov/diabetes/basics/quick-facts.html
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -283,7 +283,7 @@ export default function References() {
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
                 Heart Failure
               </h2>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -294,7 +294,7 @@ export default function References() {
                   https://www.cdc.gov/dhdsp/data_statistics/fact_sheets/fs_heart_failure.htm
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -354,7 +354,7 @@ export default function References() {
                   https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
@@ -501,7 +501,7 @@ export default function References() {
                   https://www.nfid.org/infectious-diseases/pneumococcal-infographic/
                 </a>
               </p>
-              <p className="mt-1.5 text-base tracking-tight text-slate-600">
+              <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
                 <a
                   className="underline"
