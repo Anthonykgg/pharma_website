@@ -15,7 +15,7 @@ export default function medadh() {
       >
         <div>
           <h1 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            <span className="text-emerald-300"> Medical </span> Adherence
+            <span className="text-emerald-300"> Medication </span> Adherence
           </h1>
         </div>
         <div className="lg:max-w-[45%] pt-8">
