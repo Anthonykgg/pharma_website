@@ -78,7 +78,7 @@ export default function References() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                Cold v. Flu v. Covid-19
+                Cold, Flu, and Covid-19
               </h2>
               <p className="break-words mt-1.5 text-base tracking-tight text-slate-600">
                 {" "}
