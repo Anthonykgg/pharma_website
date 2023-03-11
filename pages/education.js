@@ -20,7 +20,6 @@ export default function Education() {
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
                 From the words of a Registered Nurse with Masters of Nursing
-                Degree
               </h2>
               <li className="mt-1.5 text-base tracking-tight text-slate-600">
                 Main factors of medication adherence: health literacy,
@@ -72,9 +71,114 @@ export default function Education() {
             </div>
             <div className="sm:w-[45%]">
               <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-600">
-                From a Doctor of Osteopathic Medicine candidate&apos;s words
+                From the words of a Physician Assistant candidate
               </h2>
               <li className="mt-1.5 text-base tracking-tight text-slate-600">
+                Main factors of medication adherence: patient buy-in (whether
+                the medication is important/will help or prevent an issue),
+                patient education, ease of use (number of doses per day, timing
+                of doses, method of administration i.e. injection vs oral),
+                cost, side effects.
+              </li>
+              <li className="mt-1.5 text-base tracking-tight text-slate-600">
+                Disease stigma can also play a factor in medication adherence in
+                regards to people with mental health disorders & diabetes.
+              </li>
+              <li className="mt-1.5 text-base tracking-tight text-slate-600">
+                To spread awareness of medication adherence: create providers
+                who mirror the most skeptical populations to start rebuilding
+                trust in the healthcare system & establish rapport by respecting
+                patients decisions as long as they are well informed.
+              </li>
+              <li className="mt-1.5 text-base tracking-tight text-slate-600">
+                Ways to improve vaccine confidence: education with respect to
+                patient autonomy because it is dependent on the level of
+                decision making the patient has in the process.
+              </li>
+              <li className="mt-1.5 text-base tracking-tight text-slate-600">
+                Many people died during COVID from lack of care for chronic &
+                acute conditions due to transportation restrictions and barriers
+                to accessing care through telemedicine in tech-naive
+                populations. COVID polarized everyone and politicized health
+                science which will have rings of impact for decades.
+              </li>
+              <li className="mt-1.5 text-base tracking-tight text-slate-600">
+                PAs are involved with the treatment of every condition
+                imaginable, thus they work with nearly every specialty you can
+                think of. Interprofessional collaboration with palliative care,
+                mental health, end of life issues, device representatives, and
+                surgical cases.
+              </li>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="interprofessional education"
+        className="py-20 px-[10%] bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400"
+      >
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
+          <div className="mx-auto flex flex-col sm:flex-row justify-between">
+            <div className="sm:w-[45%]">
+              <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-200">
+                From a Doctor of Physical Therapy candidate&apos;s words
+              </h2>
+              <li className="mt-1.5 text-base tracking-tight text-slate-100">
+                High blood pressure is something PTs must take into
+                consideration when treating patients. PTs are movement
+                specialists, and our job is to get people moving. When it comes
+                to acute care settings (in-patient hospitals, ICUs, SNFs, etc.),
+                blood pressure is taken before, during, and after most
+                treatments.
+              </li>
+              <li className="mt-1.5 text-base tracking-tight text-slate-100">
+                Asthma treatment through PT can vary for each patient. Treatment
+                options focus on improving the quality of breathing or the
+                efficiency. Breathing techniques can be practiced and
+                prescribed, such as diaphragmatic breathing or pursed lip
+                breathing. The muscles used for breathing can be strengthened
+                through neuromuscular education, using a device that provides a
+                resistive load against inspiration, or even aquatic exercise.
+                The water in a pool will provide resistance against inspiration,
+                but this will need to be monitored as it can be too restricting
+                on patients especially if they already had breathing
+                difficulties.
+              </li>
+              <li className="mt-1.5 text-base tracking-tight text-slate-100">
+                Other considerations for asthma treatment are if the patient has
+                mucus build up in their respiratory system. There are percussive
+                treatments and postural drainage techniques that PTs can use to
+                help clear the lungs based on where the mucus has built up.
+                There are also techniques to help the patient cough most
+                effectively to clear mucus. One such way is using a very quick
+                cryotherapy application. Taking an ice cube in a quick swipe to
+                the patient&apos;s back can cause the expiratory muscles to fire
+                and produce a cough.
+              </li>
+              <li className="mt-1.5 text-base tracking-tight text-slate-100">
+                Lifestyle changes for patients with asthma include limiting
+                exposure to respiratory irritants, like dust, smoke, pet dander,
+                etc. Postural education and correction can also benefit those
+                with asthma. Poor posture can limit the ability of the
+                respiratory muscle to function properly/efficiently and can
+                limit the amount that the lungs can expand while breathing. This
+                can include stretching tight muscles and joints and
+                strengthening others, depending on the presentation of the
+                patient.
+              </li>
+              <li className="mt-1.5 text-base tracking-tight text-slate-100">
+                We have not had much discussion on COVID-19 specific treatments
+                within the realm of physical therapy. Assisting patients in
+                sitting, standing, and walking as tolerated will benefit their
+                condition or at least limit the negative impact of symptomatic
+                COVID-19.
+              </li>
+            </div>
+            <div className="sm:w-[45%]">
+              <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-200">
+                From a Doctor of Osteopathic Medicine candidate&apos;s words
+              </h2>
+              <li className="mt-1.5 text-base tracking-tight text-slate-100">
                 Pulmonary: Although COVID-19 is asymptomatic for most, patients
                 can get very sick with symptoms. In a study conducted in the
                 United States, 20% of people with diagnosed COVID-19 developed
@@ -84,7 +188,7 @@ export default function Education() {
                 issues&quot;, section on &apos;Clinical features in critically
                 ill patients&apos;.)
               </li>
-              <li className="mt-1.5 text-base tracking-tight text-slate-600">
+              <li className="mt-1.5 text-base tracking-tight text-slate-100">
                 Cardiovascular: Other complications arising from COVID-19
                 infections also include heart-related issues, such as
                 arrhythmias, acute cardiac injury, and shock—likely to do with
@@ -96,12 +200,12 @@ export default function Education() {
                 series of 21 severely ill patients admitted to the ICU in the
                 United States, one-third developed cardiomyopathy [122].
               </li>
-              <li className="mt-1.5 text-base tracking-tight text-slate-600">
+              <li className="mt-1.5 text-base tracking-tight text-slate-100">
                 Thromboembolic complications, including pulmonary embolism and
                 acute stroke (even in patients younger than 50 years of age
                 without risk factors), have also been reported [124-130].
               </li>
-              <li className="mt-1.5 text-base tracking-tight text-slate-600">
+              <li className="mt-1.5 text-base tracking-tight text-slate-100">
                 Neuro: Encephalopathy, or disease affecting the brain, is also a
                 common and unique side affect to the COVID-19 infection, with
                 some studies reporting encephalopathy in up to a third of
@@ -110,7 +214,7 @@ export default function Education() {
                 common, while stroke, movement disorders, motor and sensory
                 deficits, ataxia, and seizures occur less frequently.
               </li>
-              <li className="mt-1.5 text-base tracking-tight text-slate-600">
+              <li className="mt-1.5 text-base tracking-tight text-slate-100">
                 Inflammation: Some patients with severe COVID-19 have laboratory
                 evidence of an exuberant inflammatory response, with persistent
                 fevers, elevated inflammatory markers (eg, D-dimer, ferritin),
@@ -119,114 +223,6 @@ export default function Education() {
                 illnesses [25,132,133].
               </li>
             </div>
-          </div>
-        </div>
-      </section>
-      <section
-        id="interprofessional education"
-        className="py-20 px-[10%] bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400"
-      >
-        <div className="mx-auto flex flex-col sm:flex-row justify-between">
-          <div className="sm:w-[45%]">
-            <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-200">
-              From a Doctor of Physical Therapy candidate&apos;s words
-            </h2>
-            <li className="mt-1.5 text-base tracking-tight text-slate-100">
-              High blood pressure is something PTs must take into consideration
-              when treating patients. PTs are movement specialists, and our job
-              is to get people moving. When it comes to acute care settings
-              (in-patient hospitals, ICUs, SNFs, etc.), blood pressure is taken
-              before, during, and after most treatments.
-            </li>
-            <li className="mt-1.5 text-base tracking-tight text-slate-100">
-              Asthma treatment through PT can vary for each patient. Treatment
-              options focus on improving the quality of breathing or the
-              efficiency. Breathing techniques can be practiced and prescribed,
-              such as diaphragmatic breathing or pursed lip breathing. The
-              muscles used for breathing can be strengthened through
-              neuromuscular education, using a device that provides a resistive
-              load against inspiration, or even aquatic exercise. The water in a
-              pool will provide resistance against inspiration, but this will
-              need to be monitored as it can be too restricting on patients
-              especially if they already had breathing difficulties.
-            </li>
-            <li className="mt-1.5 text-base tracking-tight text-slate-100">
-              Other considerations for asthma treatment are if the patient has
-              mucus build up in their respiratory system. There are percussive
-              treatments and postural drainage techniques that PTs can use to
-              help clear the lungs based on where the mucus has built up. There
-              are also techniques to help the patient cough most effectively to
-              clear mucus. One such way is using a very quick cryotherapy
-              application. Taking an ice cube in a quick swipe to the
-              patient&apos;s back can cause the expiratory muscles to fire and
-              produce a cough.
-            </li>
-            <li className="mt-1.5 text-base tracking-tight text-slate-100">
-              Lifestyle changes for patients with asthma include limiting
-              exposure to respiratory irritants, like dust, smoke, pet dander,
-              etc. Postural education and correction can also benefit those with
-              asthma. Poor posture can limit the ability of the respiratory
-              muscle to function properly/efficiently and can limit the amount
-              that the lungs can expand while breathing. This can include
-              stretching tight muscles and joints and strengthening others,
-              depending on the presentation of the patient.
-            </li>
-            <li className="mt-1.5 text-base tracking-tight text-slate-100">
-              We have not had much discussion on COVID-19 specific treatments
-              within the realm of physical therapy. Assisting patients in
-              sitting, standing, and walking as tolerated will benefit their
-              condition or at least limit the negative impact of symptomatic
-              COVID-19.
-            </li>
-          </div>
-          <div className="sm:w-[45%]">
-            <h2 className="text-lg mt-8 mb-8 font-bold tracking-tight text-slate-200">
-              From a Doctor of Osteopathic Medicine candidate&apos;s words
-            </h2>
-            <li className="mt-1.5 text-base tracking-tight text-slate-100">
-              Pulmonary: Although COVID-19 is asymptomatic for most, patients
-              can get very sick with symptoms. In a study conducted in the
-              United States, 20% of people with diagnosed COVID-19 developed
-              acute respiratory distress syndrome, and 12.3% of them needed
-              mechanical ventilation to stay alive. (See &quot;Coronavirus
-              disease 2019 (COVID-19): Critical care and airway management
-              issues&quot;, section on &apos;Clinical features in critically ill
-              patients&apos;.)
-            </li>
-            <li className="mt-1.5 text-base tracking-tight text-slate-100">
-              Cardiovascular: Other complications arising from COVID-19
-              infections also include heart-related issues, such as arrhythmias,
-              acute cardiac injury, and shock—likely to do with the lung
-              ventilation issues that could lead to hypoxia or the strong immune
-              responses associated with COVID-19 infections [27,66,122,123]. One
-              of the most surprising findings is an increase in risk for
-              pulmonary embolism and acute stroke for those with COVID-19, even
-              if they are under the age of 50. In a series of 21 severely ill
-              patients admitted to the ICU in the United States, one-third
-              developed cardiomyopathy [122].
-            </li>
-            <li className="mt-1.5 text-base tracking-tight text-slate-100">
-              Thromboembolic complications, including pulmonary embolism and
-              acute stroke (even in patients younger than 50 years of age
-              without risk factors), have also been reported [124-130].
-            </li>
-            <li className="mt-1.5 text-base tracking-tight text-slate-100">
-              Neuro: Encephalopathy, or disease affecting the brain, is also a
-              common and unique side affect to the COVID-19 infection, with some
-              studies reporting encephalopathy in up to a third of hospitalized
-              patients. Out of all the neurological symptoms, loss of smell,
-              inability to taste, and muscle weakness are common, while stroke,
-              movement disorders, motor and sensory deficits, ataxia, and
-              seizures occur less frequently.
-            </li>
-            <li className="mt-1.5 text-base tracking-tight text-slate-100">
-              Inflammation: Some patients with severe COVID-19 have laboratory
-              evidence of an exuberant inflammatory response, with persistent
-              fevers, elevated inflammatory markers (eg, D-dimer, ferritin), and
-              elevated proinflammatory cytokines; these laboratory abnormalities
-              have been associated with critical and fatal illnesses
-              [25,132,133].
-            </li>
           </div>
         </div>
       </section>
