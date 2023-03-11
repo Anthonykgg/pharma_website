@@ -30,7 +30,7 @@ export default function pneumonia() {
           <div className="mx-auto flex flex-wrap flex-col sm:flex-row justify-around">
             <Link
               className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-emerald-300 text-white hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
-              href="/"
+              href="PneuSpan.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -38,7 +38,7 @@ export default function pneumonia() {
             </Link>
             <Link
               className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-emerald-300 text-white hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
-              href="/"
+              href="PneuViet.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -46,7 +46,7 @@ export default function pneumonia() {
             </Link>
             <Link
               className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-emerald-300 text-white hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
-              href="/"
+              href="PneuChin.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -54,7 +54,7 @@ export default function pneumonia() {
             </Link>
             <Link
               className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-emerald-300 text-white hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
-              href="/"
+              href="PneuKorean.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -62,7 +62,7 @@ export default function pneumonia() {
             </Link>
             <Link
               className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-small font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-emerald-300 text-white hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white mt-10"
-              href="/"
+              href="PneuTag.pdf"
               target="_blank"
               rel="noreferrer"
             >
