@@ -34,8 +34,17 @@
 
 ###### Home page:
 
-![home](/public/homepage.png)
+![home](/public/homepage.gif)
 
-###### Other pages:
+###### Example of useful flyers:
 
-![image1]()
+<div align="center">
+
+<img style="padding-right:10px;" src="/public/coldVflu.png" width="220" height="320">
+<img src="/public/highCholesterol.png" width="220" height="320">
+
+</div>
+
+###### Contact page:
+
+![home](/public/contactpage.png)
