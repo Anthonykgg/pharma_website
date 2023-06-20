@@ -38,13 +38,13 @@
 
 </div>
 
-## Screenshots
+## :camera_flash: Visuals and Helpful Insight (Getting Started):
 
-###### Home page:
+#### Home page:
 
 ![home](/public/homepage.gif)
 
-###### Example of useful flyers:
+#### Example of useful flyers:
 
 <div align="center">
 
@@ -53,6 +53,15 @@
 
 </div>
 
-###### Contact page:
+#### Contact page:
 
 ![home](/public/contactpage.png)
+
+## :computer: Technologies Used
+
+- ![HTML badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![JS badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+- ![Vercel badge](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+- ![Tailwind badge](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- ![NextJs badge](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
